@@ -44,3 +44,34 @@ Partiamo descrivendo la schermata iniziale, quella di Login. A questo punto l’
 **LogOut:** il pulsante di Logout è l’unico che l’utente ha per tornare nella schermata di Login, la funzione del tasto Back è stata sovrascritta per ottenere questo risultato, infatti, se l’utente nella home preme il tasto Back viene sempre visualizzato un AlertDialog che lo avvisa della necessità di premere il tasto Logout se si intende effettuare la disconnessione. Questa scelta è stata fatta per evitare che l’utente si disconnetta premendo accidentalmente o ripetutamente il tasto Back, che invece, mantiene la sua funzione nelle altre schermate. Inoltre, nel tasto Logout viene chiamata un’ istruzione che termina l’activity e tutti i suoi processi.
 
 **Messaggi:** per implementare una primitiva della notifica, cioè, per avvisare l’utente quando sono state modificate delle prenotazioni, è stato implementato un cronometro che, all’interno della home del dip. professionale effettua ogni 10 secondi una richiesta al server, se l’esito è positivo significa che ci sono dei messaggi per questo utente, altrimenti significa che l’utente non ha ricevuto dei messaggi, in base a questo risultato viene cambiato il colore del tasto messaggi, che diventa rosso per esito positivo, altrimenti blu.
+
+### Requisiti non funzionali
+
+I requisiti non funzionali sono:
+
+**Server:** sviluppato con il framework laravel 8, usando il linguaggio PHP,
+questo è lo strumento utilizzato per implementare il lato server del nostro sistema, quindi, per poter usare l’applicazione si rende necessario installare xamp per ottenere sulla propria macchina l’ambiente PHP necessario. Successivamente, bisogna copiare nella cartella HTDOCS il progetto del server.
+Attualmente, il server gira in locale, su localhost, una volta spostato su un server dedicato bisogna cambiare un’istruzione tra le dipendenze necessarie per fare le richieste HTTP.
+
+**Database:** sviluppato usando mysql e sql, il database è stato implementato da zero,abbiamo costruito tutte le tabelle, le loro relazioni e i vari vincoli.
+Il database attualmente è popolato con informazioni di prova, cioè, le caratteristiche sono reali ma il contenuto è inventato, ad esempio i nomi o le date di
+nascita sono inventate. Il server è l’unica applicazione che si interfaccia direttamente con il DB, tutte le richieste di lettura, scrittura, eliminazione e login
+fatte per il DB vengono gestite prima dal server, così come anche le risposte che contengono le informazioni del DB.
+
+## Architettura
+### Classi Kotlin, Activity, Fragment
+
+Per questa applicazione ogni POST ha una corrispondente Data Class così come anche ogni risposta del server ha una o più Data Class necessarie per fare il parsing. L’applicazione sfrutta activity e fragment secondo un’architettura modulare. Si è deciso di raggruppare in quattro macro categorie il progetto complessivo:
+
+1. **welcome:** all’interno di questa cartella ci sono tutti tutte le Data Class necessarie per fare il parsing delle risposte del server e per fare le POST, la MainActivity che consiste nell’activity principale dell’app, quella da cui si fa il Login, con il suo viewModel, il validatore, un oggetto usato per effettuare dei controlli, e infine, è presente l’ ApiRequests che consiste nell’interfaccia all’interno della quale sono definite tutte le funzioni per fare le richieste GET o POST al server.
+
+2. **homeCuoco:** all’interno di questa cartella c'è il fragment, che permette all’utente di usufruire delle varie funzionalità dell’app, e l’Activity principale che rappresenta la home del dipendente cuoco.
+
+3. **homeGen:** all’interno di questa cartella c’`e il fragment che permette all’utente di usufruire delle varie funzionalit`a dell’app e l’Activity principale che rappresenta la home del dipendente generico, abbiamo una sotto-cartella per la suddivisione lavoro che al suo interno contiene due altre sotto-cartelle, una per l’inserimento e l’altra per la lista delle suddivisioni lavoro, nell’inserimento abbiamo la classe del fragment e le gi`a citate Data Class, nella classe per la lista abbiamo oltre alla Data Class e alla classe per il fragment, abbiamo l’adapter per la Recycler view della lista.
+
+4. **homePro:** all’interno di questa cartella c'è il fragment che permette all’utente di usufruire delle varie funzionalità dell’app e l’Activity principale che rappresenta la home del dipendente professionale. Sono presenti delle sotto-cartelle, una per le anagrafiche, che contiene il fragment di visualizzazione delle anagrafiche. Le altre cartelle seguono una logica comune a quella della cartella suddivisione lavoro per il dipendente generico, infatti, abbiamo al loro interno altre sotto-cartelle per suddividere le liste dagli inserimenti. Ci sono le già citate Data Class, inoltre, sono presenti gli adapter per le Recycler view e le classi dei vari fragment.
+
+## UI
+Riporto di seguito il diagramma dei casi d’uso e le schermate che verranno visualizzate durante l’utilizzo dell’applicazione, considerando tutte le operazioni che possono essere svolte.
+
+### Diagramma dei casi d’uso
