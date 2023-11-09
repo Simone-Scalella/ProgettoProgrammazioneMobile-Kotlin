@@ -79,10 +79,10 @@ Riporto di seguito il diagramma dei casi d’uso e le schermate che verranno vis
 
 ### Login, errori di autenticazione, Log Success
 <p align="center">
-  <img src="https://github.com/Simone-Scalella/ProgettoProgrammazioneMobile-Kotlin/blob/main/KotlinFoto/Login/LoginKotlin.png" width="400" alt="Immagine 1">
-  <img src="https://github.com/Simone-Scalella/ProgettoProgrammazioneMobile-Kotlin/blob/main/KotlinFoto/Login/LogOkKotlin.png" width="400" alt="Immagine 2">
+  <img src="https://github.com/Simone-Scalella/ProgettoProgrammazioneMobile-Kotlin/blob/main/KotlinFoto/Login/LoginKotlin.png" width="100" alt="Immagine 1">
+  <img src="https://github.com/Simone-Scalella/ProgettoProgrammazioneMobile-Kotlin/blob/main/KotlinFoto/Login/LogOkKotlin.png" width="100" alt="Immagine 2">
 </p>
 <p align="center">
-  <img src="https://github.com/Simone-Scalella/ProgettoProgrammazioneMobile-Kotlin/blob/main/KotlinFoto/Login/LogErrKotlin.png" width="400" alt="Immagine 3">
-  <img src="https://github.com/Simone-Scalella/ProgettoProgrammazioneMobile-Kotlin/blob/main/KotlinFoto/Login/LogErr2Kotlin.png" width="400" alt="Immagine 4">
+  <img src="https://github.com/Simone-Scalella/ProgettoProgrammazioneMobile-Kotlin/blob/main/KotlinFoto/Login/LogErrKotlin.png" width="200" alt="Immagine 3">
+  <img src="https://github.com/Simone-Scalella/ProgettoProgrammazioneMobile-Kotlin/blob/main/KotlinFoto/Login/LogErr2Kotlin.png" width="200" alt="Immagine 4">
 </p>
