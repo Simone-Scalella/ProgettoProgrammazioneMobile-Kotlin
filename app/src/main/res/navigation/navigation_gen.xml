@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_gen"
+    app:startDestination="@id/Welcom_gen">
+
+    <fragment
+        android:id="@+id/listaMagazzino_gen"
+        android:name="homeProf.magazzino.listaMagazzino"
+        android:label="fragment_viewModel"
+        tools:layout="@layout/lista_magazzino_fragment">
+    </fragment>
+
+    <fragment
+        android:id="@+id/SuddLavCF_gen"
+        android:name="homeGen.Sudd_lavoro.ListaCF.ListaCFFragment"
+        android:label="fragment_SuddivisioneLavoroCF"
+        tools:layout="@layout/fragment_lista_c_f">
+    </fragment>
+
+    <fragment
+        android:id="@+id/InserireSuddLav"
+        android:name="homeGen.Sudd_lavoro.Inserimento.InserisciFragmentSuddivisione"
+        android:label="fragment_inserimentoSudd"
+        tools:layout="@layout/fragment_inserisci_suddivisione">
+    </fragment>
+
+    <fragment
+        android:id="@+id/Welcom_gen"
+        android:name="homeGen.WelcomeFragmentGen"
+        android:label="fragment_welcome_gen"
+        tools:layout="@layout/fragment_welcome_gen">
+        <action
+            android:id="@+id/action_Welcom_gen_to_listaMagazzino_gen"
+            app:destination="@id/listaMagazzino_gen" />
+        <action
+            android:id="@+id/action_Welcom_gen_to_AnagraficheGenerico"
+            app:destination="@id/AnagraficheGenerico" />
+        <action
+            android:id="@+id/action_Welcom_gen_to_richiestaMagazzinoFragment_gen"
+            app:destination="@id/richiestaMagazzinoFragment_gen" />
+        <action
+            android:id="@+id/action_Welcom_gen_to_SelfFragmentAggiornamento_gen"
+            app:destination="@id/SelfFragmentAggiornamento_gen" />
+        <action
+            android:id="@+id/action_Welcom_gen_to_InserireSuddLav"
+            app:destination="@id/InserireSuddLav" />
+        <action
+            android:id="@+id/action_Welcom_gen_to_SuddLavCF_gen"
+            app:destination="@id/SuddLavCF_gen" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/AnagraficheGenerico"
+        android:name="homeProf.anagrafiche.AnagraficheFragment"
+        android:label="fragment_anagrafiche"
+        tools:layout="@layout/fragment_anagrafiche"/>
+
+    <fragment
+        android:id="@+id/richiestaMagazzinoFragment_gen"
+        android:name="homeProf.magazzino.inserimento.richiestaMagazzinoFragment"
+        android:label="fragment_richiesta_magazzino"
+        tools:layout="@layout/fragment_richiesta_magazzino" />
+
+    <fragment
+        android:id="@+id/SelfFragmentAggiornamento_gen"
+        android:name="homeProf.magazzino.ListaRichieste.SelfFragmentAggiornamento"
+        android:label="fragment_self_aggiornamento"
+        tools:layout="@layout/fragment_self_aggiornamento" />
+
+</navigation>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/welcomeProf">
+
+    <fragment
+        android:id="@+id/listaMagazzino"
+        android:name="homeProf.magazzino.listaMagazzino"
+        android:label="fragment_viewModel"
+        tools:layout="@layout/lista_magazzino_fragment">
+    </fragment>
+
+    <fragment
+        android:id="@+id/InserisciTrasferimento"
+        android:name="homeProf.RichiesteLavoro.Inserimento.InserimentoTrasferimentoFragment"
+        android:label="fragment_InserimentoRicLav"
+        tools:layout="@layout/fragment_inserimento_trasferimento">
+    </fragment>
+
+    <fragment
+        android:id="@+id/RichiesteLavoro"
+        android:name="homeProf.RichiesteLavoro.SelfRichiesteLavoroFragment"
+        android:label="fragment_RichiesteLavoro"
+        tools:layout="@layout/fragment_self_richieste_lavoro">
+    </fragment>
+
+    <fragment
+        android:id="@+id/InserisciPre"
+        android:name="homeProf.macchine.inserimento.InserisciPrenotazioneFragment"
+        android:label="fragment_InserisciPre"
+        tools:layout="@layout/fragment_inserisci_prenotazione">
+    </fragment>
+
+    <fragment
+        android:id="@+id/Messaggi_utente"
+        android:name="homeProf.messaggi.MessaggiFragment"
+        android:label="fragment_messaggi"
+        tools:layout="@layout/fragment_messaggi">
+    </fragment>
+
+    <fragment
+        android:id="@+id/listaSelfPrenotazioni"
+        android:name="homeProf.macchine.liste.SelfPrenotazioniFragment"
+        android:label="fragment_self_prenotazioni"
+        tools:layout="@layout/fragment_self_prenotazioni">
+    </fragment>
+
+    <fragment
+        android:id="@+id/AnagraficheDipendente"
+        android:name="homeProf.anagrafiche.AnagraficheFragment"
+        android:label="fragment_anagrafiche"
+        tools:layout="@layout/fragment_anagrafiche"/>
+
+    <fragment
+        android:id="@+id/listaSelfSuddivisioneLavoro"
+        android:name="homeProf.suddivisione_lavoro.SelfFragmentSuddLavoro"
+        android:label="fragment_self_suddivisione_lavoro"
+        tools:layout="@layout/fragment_self_sudd_lavoro">
+    </fragment>
+
+    <fragment
+        android:id="@+id/PrenotazioniGeneriche"
+        android:name="homeProf.macchine.liste.PrenotazioniGenericheFragment"
+        android:label="fragment_prenotazioni_generiche"
+        tools:layout="@layout/fragment_prenotazioni_generiche">
+    </fragment>
+
+    <fragment
+        android:id="@+id/welcomeProf"
+        android:name="homeProf.welcomeProf"
+        android:label="fragment_viewModel"
+        tools:layout="@layout/welcome_prof_fragment">
+        <action
+            android:id="@+id/vedere_listaMagazzino"
+            app:destination="@id/listaMagazzino" />
+        <action
+            android:id="@+id/inviare_richiestaMagazzino"
+            app:destination="@id/richiestaMagazzinoFragment" />
+        <action
+            android:id="@+id/action_welcomeProf_to_SelfFragmentAggiornamento"
+            app:destination="@id/SelfFragmentAggiornamento" />
+        <action
+            android:id="@+id/action_welcomeProf_to_listaSelfPrenotazioni"
+            app:destination="@id/listaSelfPrenotazioni" />
+        <action
+            android:id="@+id/action_welcomeProf_to_listaSelfSuddivisioneLavoro"
+            app:destination="@id/listaSelfSuddivisioneLavoro" />
+        <action
+            android:id="@+id/action_welcomeProf_to_AnagraficheDipendente"
+            app:destination="@id/AnagraficheDipendente" />
+        <action
+            android:id="@+id/action_welcomeProf_to_PrenotazioniGeneriche"
+            app:destination="@id/PrenotazioniGeneriche" />
+        <action
+            android:id="@+id/action_welcomeProf_to_RichiesteLavoro"
+            app:destination="@id/RichiesteLavoro" />
+        <action
+            android:id="@+id/action_welcomeProf_to_Messaggi_utente"
+            app:destination="@id/Messaggi_utente" />
+        <action
+            android:id="@+id/action_welcomeProf_to_InserisciPre"
+            app:destination="@id/InserisciPre" />
+        <action
+            android:id="@+id/action_welcomeProf_to_InserisciTrasferimento"
+            app:destination="@id/InserisciTrasferimento" />
+    </fragment>
+    <fragment
+        android:id="@+id/richiestaMagazzinoFragment"
+        android:name="homeProf.magazzino.inserimento.richiestaMagazzinoFragment"
+        android:label="fragment_richiesta_magazzino"
+        tools:layout="@layout/fragment_richiesta_magazzino" />
+
+    <fragment
+        android:id="@+id/SelfFragmentAggiornamento"
+        android:name="homeProf.magazzino.ListaRichieste.SelfFragmentAggiornamento"
+        android:label="fragment_self_aggiornamento"
+        tools:layout="@layout/fragment_self_aggiornamento" />
+
+
+</navigation>

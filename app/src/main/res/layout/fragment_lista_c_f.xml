@@ -1,0 +1,26 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="homeGen.Sudd_lavoro.ListaCF.ListaCFFragment">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/input_CF_dipendente"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:hint="codice fiscale" />
+
+    <Button
+        android:id="@+id/button_cf_dipendente"
+        android:layout_width="210dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="200dp"
+        android:text="Invio" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="55dp"
+        android:id="@+id/recycler_view_simo_SuddivisioniCF"/>
+
+</FrameLayout>

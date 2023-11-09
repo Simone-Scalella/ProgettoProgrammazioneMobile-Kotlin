@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_cuoco"
+    app:startDestination="@id/WelcomeCuoco">
+
+    <fragment
+        android:id="@+id/WelcomeCuoco"
+        android:name="homeCuoco.WelcomeFragmentCuoco"
+        android:label="fragment_WelcomeC"
+        tools:layout="@layout/fragment_welcome_cuoco">
+        <action
+            android:id="@+id/action_WelcomeCuoco_to_SelfFragmentAggiornamento"
+            app:destination="@id/SelfFragmentAggiornamento" />
+        <action
+            android:id="@+id/action_WelcomeCuoco_to_richiestaMagazzinoFragment"
+            app:destination="@id/richiestaMagazzinoFragment" />
+        <action
+            android:id="@+id/action_WelcomeCuoco_to_AnagraficheDipendente"
+            app:destination="@id/AnagraficheDipendente" />
+        <action
+            android:id="@+id/action_WelcomeCuoco_to_listaMagazzino"
+            app:destination="@id/listaMagazzino" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/listaMagazzino"
+        android:name="homeProf.magazzino.listaMagazzino"
+        android:label="fragment_viewModel"
+        tools:layout="@layout/lista_magazzino_fragment">
+    </fragment>
+
+    <fragment
+        android:id="@+id/AnagraficheDipendente"
+        android:name="homeProf.anagrafiche.AnagraficheFragment"
+        android:label="fragment_anagrafiche"
+        tools:layout="@layout/fragment_anagrafiche"/>
+
+    <fragment
+        android:id="@+id/richiestaMagazzinoFragment"
+        android:name="homeProf.magazzino.inserimento.richiestaMagazzinoFragment"
+        android:label="fragment_richiesta_magazzino"
+        tools:layout="@layout/fragment_richiesta_magazzino" />
+
+    <fragment
+        android:id="@+id/SelfFragmentAggiornamento"
+        android:name="homeProf.magazzino.ListaRichieste.SelfFragmentAggiornamento"
+        android:label="fragment_self_aggiornamento"
+        tools:layout="@layout/fragment_self_aggiornamento" />
+
+</navigation>

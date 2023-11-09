@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp">
+
+    <TextView
+        android:layout_width="90dp"
+        android:layout_height="25dp"
+        android:id="@+id/textview_simoSL1"
+        android:layout_marginStart="15dp"
+        android:text="TextView"
+        android:textSize="16dp" />
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="15dp"
+        android:id="@+id/textview_simoSL2"
+        android:text="TextView"
+        android:textSize="16dp" />
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="15dp"
+        android:id="@+id/textview_simoSL3"
+        android:text="TextView"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/textview_simoSL4"
+        android:layout_width="70dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="15dp"
+        android:text="TextView" />
+
+</LinearLayout>
