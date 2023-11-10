@@ -79,10 +79,113 @@ Riporto di seguito il diagramma dei casi d’uso e le schermate che verranno vis
 
 ### Login, errori di autenticazione, Log Success
 <p align="center">
-  <img src="https://github.com/Simone-Scalella/ProgettoProgrammazioneMobile-Kotlin/blob/main/KotlinFoto/Login/LoginKotlin.png" width="100" alt="Immagine 1">
-  <img src="https://github.com/Simone-Scalella/ProgettoProgrammazioneMobile-Kotlin/blob/main/KotlinFoto/Login/LogOkKotlin.png" width="100" alt="Immagine 2">
+  <img src="https://github.com/Simone-Scalella/ProgettoProgrammazioneMobile-Kotlin/blob/main/KotlinFoto/Login/LoginKotlin.png" width="175" alt="Immagine 1">
+  <img src="https://github.com/Simone-Scalella/ProgettoProgrammazioneMobile-Kotlin/blob/main/KotlinFoto/Login/LogOkKotlin.png" width="175" alt="Immagine 2">
 </p>
 <p align="center">
-  <img src="https://github.com/Simone-Scalella/ProgettoProgrammazioneMobile-Kotlin/blob/main/KotlinFoto/Login/LogErrKotlin.png" width="200" alt="Immagine 3">
-  <img src="https://github.com/Simone-Scalella/ProgettoProgrammazioneMobile-Kotlin/blob/main/KotlinFoto/Login/LogErr2Kotlin.png" width="200" alt="Immagine 4">
+  <img src="https://github.com/Simone-Scalella/ProgettoProgrammazioneMobile-Kotlin/blob/main/KotlinFoto/Login/LogErrKotlin.png" width="175" alt="Immagine 3">
+  <img src="https://github.com/Simone-Scalella/ProgettoProgrammazioneMobile-Kotlin/blob/main/KotlinFoto/Login/LogErr2Kotlin.png" width="175" alt="Immagine 4">
 </p>
+
+### Home del cuoco, logout e anagrafiche
+<p align="center">
+  <img src="https://github.com/Simone-Scalella/ProgettoProgrammazioneMobile-Kotlin/blob/main/KotlinFoto/HomeCuocoKotlin.png" width="175" alt="Immagine 5">
+  <img src="https://github.com/Simone-Scalella/ProgettoProgrammazioneMobile-Kotlin/blob/main/KotlinFoto/AnagraficheKotlin.png" width="175" alt="Immagine 6">
+   <img src="https://github.com/Simone-Scalella/ProgettoProgrammazioneMobile-Kotlin/blob/main/KotlinFoto/onBackPress.png" width="175" alt="Immagine 7">
+</p>
+
+### Liste del magazzino, inserimento ed errore nell'inserimento
+<p align="center">
+  <img src="https://github.com/Simone-Scalella/ProgettoProgrammazioneMobile-Kotlin/blob/main/KotlinFoto/Lista/ListaMagazzinoKotlin.png" width="175" alt="Immagine 8">
+  <img src="https://github.com/Simone-Scalella/ProgettoProgrammazioneMobile-Kotlin/blob/main/KotlinFoto/InserimentoMagazzino/ErroreInserimento.png" width="175" alt="Immagine 9">
+   <img src="https://github.com/Simone-Scalella/ProgettoProgrammazioneMobile-Kotlin/blob/main/KotlinFoto/InserimentoMagazzino/InserimentoKotlin.png" width="175" alt="Immagine 10">
+</p>
+<p align="center">
+  <img src="https://github.com/Simone-Scalella/ProgettoProgrammazioneMobile-Kotlin/blob/main/KotlinFoto/InserimentoMagazzino/InsertOkKotlin.png" width="175" alt="Immagine 11">
+  <img src="https://github.com/Simone-Scalella/ProgettoProgrammazioneMobile-Kotlin/blob/main/KotlinFoto/Lista/ListaRichiesteKotlin.png" width="175" alt="Immagine 12">
+</p>
+
+### Home del dipendente generico, inserimento di una suddivisione lavoro ed errore
+<p align="center">
+  <img src="https://github.com/Simone-Scalella/ProgettoProgrammazioneMobile-Kotlin/blob/main/KotlinFoto/HomeGen.png" width="175" alt="Immagine 13">
+  <img src="https://github.com/Simone-Scalella/ProgettoProgrammazioneMobile-Kotlin/blob/main/KotlinFoto/InserisciSuddLavoro/InsSuddLavKotlin.png" width="175" alt="Immagine 14">
+   <img src="https://github.com/Simone-Scalella/ProgettoProgrammazioneMobile-Kotlin/blob/main/KotlinFoto/InserisciSuddLavoro/SuddInsErrKotlin.png" width="175" alt="Immagine 15">
+</p>
+
+### Lista delle suddivisione lavoro, eliminazione di un elemento
+<p align="center">
+  <img src="https://github.com/Simone-Scalella/ProgettoProgrammazioneMobile-Kotlin/blob/main/KotlinFoto/GenListaSudd/ListaSuddGen.png" width="175" alt="Immagine 16">
+  <img src="https://github.com/Simone-Scalella/ProgettoProgrammazioneMobile-Kotlin/blob/main/KotlinFoto/GenListaSudd/ListaSuddLavCFKotlin.png" width="175" alt="Immagine 17">
+</p>
+<p align="center">
+  <img src="https://github.com/Simone-Scalella/ProgettoProgrammazioneMobile-Kotlin/blob/main/KotlinFoto/GenListaSudd/ListaDeleteQuestKotlin.png" width="175" alt="Immagine 18">
+  <img src="https://github.com/Simone-Scalella/ProgettoProgrammazioneMobile-Kotlin/blob/main/KotlinFoto/GenListaSudd/ListaSuddLvDelOkKotlin.png" width="175" alt="Immagine 19">
+</p>
+
+### Home del dipendente professionale
+<p align="center">
+  <img src="https://github.com/Simone-Scalella/ProgettoProgrammazioneMobile-Kotlin/blob/main/KotlinFoto/HomePro1.png" width="175" alt="Immagine 20">
+  <img src="https://github.com/Simone-Scalella/ProgettoProgrammazioneMobile-Kotlin/blob/main/KotlinFoto/HomePro2.png" width="175" alt="Immagine 21">
+   <img src="https://github.com/Simone-Scalella/ProgettoProgrammazioneMobile-Kotlin/blob/main/KotlinFoto/HomePro2.png" width="175" alt="Immagine 22">
+</p>
+
+### Inserimento della prenoazione di un macchinario, liste delle prenotazioni personali ed eliminazione
+<p align="center">
+  <img src="https://github.com/Simone-Scalella/ProgettoProgrammazioneMobile-Kotlin/blob/main/KotlinFoto/PrenotazioneMacchina/InserisciPrenotazione.png" width="175" alt="Immagine 23">
+  <img src="https://github.com/Simone-Scalella/ProgettoProgrammazioneMobile-Kotlin/blob/main/KotlinFoto/Lista/ListaPrenMie.png" width="175" alt="Immagine 24">
+   <img src="https://github.com/Simone-Scalella/ProgettoProgrammazioneMobile-Kotlin/blob/main/KotlinFoto/PrenotazioneMacchina/CancellazionePrenotazione.png" width="175" alt="Immagine 25">
+</p>
+
+### Lista dei messaggi, delle prenotazioni generiche ed errore nella cancellazione
+<p align="center">
+  <img src="https://github.com/Simone-Scalella/ProgettoProgrammazioneMobile-Kotlin/blob/main/KotlinFoto/Lista/ListaMessaggi.png" width="175" alt="Immagine 26">
+  <img src="https://github.com/Simone-Scalella/ProgettoProgrammazioneMobile-Kotlin/blob/main/KotlinFoto/PrenotazioniGeneMacch/ListaPrenotazioniMacchinario.png" width="175" alt="Immagine 27">
+   <img src="https://github.com/Simone-Scalella/ProgettoProgrammazioneMobile-Kotlin/blob/main/KotlinFoto/PrenotazioniGeneMacch/ErrListaPrenotazioni.png" width="175" alt="Immagine 28">
+</p>
+
+### Lista delle suddivisioni e dei trasferimenti di lavoro
+<p align="center">
+  <img src="https://github.com/Simone-Scalella/ProgettoProgrammazioneMobile-Kotlin/blob/main/KotlinFoto/Lista/ListaSuddPro.png" width="175" alt="Immagine 29">
+  <img src="https://github.com/Simone-Scalella/ProgettoProgrammazioneMobile-Kotlin/blob/main/KotlinFoto/TrasferimentoLavoro/ListaTrasfProKotlin.png" width="175" alt="Immagine 30">
+</p>
+
+### Inserimento e cancellazione di un trasferimento di lavoro, con errori
+<p align="center">
+  <img src="https://github.com/Simone-Scalella/ProgettoProgrammazioneMobile-Kotlin/blob/main/KotlinFoto/TrasferimentoLavoro/InsTrasfKotlin.png" width="175" alt="Immagine 31">
+  <img src="https://github.com/Simone-Scalella/ProgettoProgrammazioneMobile-Kotlin/blob/main/KotlinFoto/TrasferimentoLavoro/TrasferimentoLavoroDeleteErr.png" width="175" alt="Immagine 32">
+   <img src="https://github.com/Simone-Scalella/ProgettoProgrammazioneMobile-Kotlin/blob/main/KotlinFoto/TrasferimentoLavoro/ListaTrasfLavoroCancKotlin.png" width="175" alt="Immagine 33">
+</p>
+
+## Sviluppo
+
+In questa sezione descriverò brevemente gli aspetti più interessanti dello sviluppo dell'applicazione:
+
+* **RecyclerView:** ogni recyclerview presente nel progetto è stata pensata con lo scopo di mostrare tutti gli elementi laddove erano presenti in quantità non indifferente. Ognuna di esse è stata gestita tramite un Adapter, attraverso il quale sono andato ad inserire gli elementi che ci venivano restituiti come risposta dal server. In alcune recyclerview come detto in precedenza ho definito l’azione da compiere per l’evento onLongClick.
+
+* **Permessi:** sono stati utilizzati i permessi nel manifest per far utilizzare all’app la connessione internet, però, solo questi permessi non sono sufficienti, in quanto android di default non permette di fare richieste HTTP ma solo HTTPS, quindi è stato necessario implementare ulteriori permessi all’interno del file citato precedentemente dove ho definito un ulteriore permesso per il localhost, in quanto le richieste definite utilizzano il protocollo HTTP e non l’altro.
+
+* **API:** per fare le varie richieste ho utilizzato retrofit, libreria di networking che trasforma una API HTTP in un interfaccia Kotlin e Java,abilita il processamento di richieste e risposte come oggetti per usarli nell’app, si appoggia su librerie standard, come OkHttp. Ho utilizzato moshi per effettuare il parsing delle risposte,`e una libreria JSON per il parsing di JSON in oggetti (e viceversa).
+
+* **Autenticazione:** successivamente all’autenticazione, se la richiesta è andata a buon fine tramite un intent si passa da un’activity ad un’altra. Per passare la risposta ottenuta dal server la corrispondente data class è stata definita come serializable, quest’oggetto viene anche passato tra i vari fragment.
+
+* **Coroutine:** all’interno dell’applicazione tutte le funzioni vengono chiamate all’interno di coroutine, introdotte in Kotlin 1.3, mantengono l’app reattiva mentre vengono eseguiti dei long-running tasks che in questo caso sono le chiamate al server, le eccezioni sono state gestite in fase di sviluppo all’interno di blocchi try/catch. Tutte le funzioni che implementano le richieste al server sono definite come suspend, è stato utilizzato il Dispatchers.IO per mandare in esecuzione le chiamate al server, in questo modo il thread principale non viene rallentato.
+Il Dispatchers.Main viene utilizzato nell’applicazione solo quando, successivamente ad una risposta del server, bisogna modificare alcuni elementi del layout, come ad esempio una View o una recyclerview.
+
+## Testing
+
+### Unit test
+
+La cartella che contiene i test si chiama welcome.
+Percorso /app/src/test/java/welcome
+
+* Verifica che il campo username e password non sia vuoto.
+* Verifica sulla lunghezza del codice fiscale inserito.
+* Verifica sulla lunghezza del codice macchina inserito.
+
+### UI test
+
+La cartella che contiene i test si chiama welcome.
+Percorso app/src/androidTest/java/welcome
+
+* Test sulla UI dell’app, viene simulata una situazione di loggin dell’utente.
+* Test sulla UI dell’app, viene simulata una situazione di inserimento da parte del cuoco di una richiesta per un oggetto del magazzino.
